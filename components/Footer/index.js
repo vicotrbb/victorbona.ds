@@ -4,7 +4,8 @@ import React from "react";
 import styles from "./Footer.module.css";
 import mediumLogo from "./medium.svg";
 import githubLogo from "./github.svg";
-import LeetCodeLogo from "./LeetCode.svg"
+import LeetCodeLogo from "./LeetCode.svg";
+import linkedinLogo from "./linkedin.svg";
 
 const Footer = ({ noBorder }) => (
   <footer>
@@ -32,6 +33,13 @@ const Footer = ({ noBorder }) => (
               href="https://leetcode.com/vicotrbb/"
             >
               <img src={LeetCodeLogo} alt="Victor on Leetcode" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/victorbona/"
+            >
+              <img src={linkedinLogo} alt="Victor on linkedin" />
             </a>
           </li>
         </ul>

@@ -5,7 +5,7 @@ import React from 'react'
 import Icon from '../../Icon'
 import styles from './WorkCard.module.css'
 
-const bgColors = ['#4A2BAF', '#0F61C0', '#9E2B79', '#4146B5']
+const bgColors = ['#4146B5', '#4A2BAF', '#0F61C0', '#9E2B79']
 
 const WorkCard = props => {
   const {

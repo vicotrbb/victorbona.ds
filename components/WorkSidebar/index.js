@@ -21,6 +21,12 @@ const Sidebar = ({ year, client, services, tech, website }) => (
         </ul>
       </Section>
     )}
+    {year && (
+      <Section>
+        <p className={styles.title}>Year</p>
+        <p className={styles.item}>{year}</p>
+      </Section>
+    )}
     {tech && (
       <Section className={styles.techs}>
         {tech.split(', ').map(t => (
