@@ -6,14 +6,14 @@ import Icon from '../../Icon'
 import styles from './WorkCard.module.css'
 
 const bgColors = ['#4146B5', '#4A2BAF', '#0F61C0', '#9E2B79']
-const gifs = ["https://giphy.com/embed/7NS9RAepPQ0HJ85qJz"]
+const gifs = ["https://giphy.com/embed/7NS9RAepPQ0HJ85qJz", "https://giphy.com/embed/PjJ1cLHqLEveXysGDB"]
 
 const WorkCard = props => {
   const {
     index,
     slug,
     document: {
-      data: { title, date, services, tech, featuredImg }
+      data: { title, date, services, tech }
     }
   } = props
 
