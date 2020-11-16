@@ -36,7 +36,6 @@ const WorkInfo = ({ data, data: { title, website }, content }) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Visit website
                     </a>
                   )}
                 </div>
@@ -85,19 +84,7 @@ const Post = () => {
       <Header />
       <article className={styles.work}>
         <WorkInfo data={data} content={content} />
-        <div className={styles.workImages}>
-          <div className={styles.images}>
-            <ReactMarkdown
-              source={images.content}
-              renderers={{ image: Img, paragraph: P }}
-            />
-          </div>
-        </div>
       </article>
-      {/* <NextWork nextSlug={nextWork.slug}>
-        <WorkInfo data={nextWork.document.data} content={nextWork.document.content} />
-      </NextWork> */}
-      <Footer noBorder />
     </>
   )
 }

@@ -6,6 +6,7 @@ import Icon from '../../Icon'
 import styles from './WorkCard.module.css'
 
 const bgColors = ['#4146B5', '#4A2BAF', '#0F61C0', '#9E2B79']
+const gifs = ["https://giphy.com/embed/7NS9RAepPQ0HJ85qJz"]
 
 const WorkCard = props => {
   const {
@@ -19,6 +20,9 @@ const WorkCard = props => {
   return (
     <Link href="/work/[wid]" as={`/work/${slug}`}>
       <a className={styles.card} style={{ background: bgColors[index % 4] }}>
+        <div className={styles.images}>
+          <iframe src={ gifs[index % 4] } width="100%" height="100%" frameBorder="0"></iframe>
+        </div>
         <div className={styles.info}>
           <p className={styles.date}>{new Date(date).getFullYear()}</p>
           <h1 className={styles.title}>{title}</h1>

@@ -21,7 +21,7 @@ const Intro = () => (
         </p>
         <p>📋 I'm actually working at WorkDB Data Business as a <strong>Full Stack Software Engineer</strong>.</p>
         <p>💻 I’m graduating in <strong>Computer Sciences</strong>.</p>
-        <p>🔬 My main study focus are <strong>Artificial Intelligence</strong> and <strong>Neuro Sciences</strong>.</p>
+        <p>🔬 My main study focus is <strong>Artificial Intelligence</strong>.</p>
       </div>
     </div>
     <div className={styles.br}></div>
