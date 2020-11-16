@@ -2,7 +2,7 @@
 title: 'OCR Image Augmentation'
 date: 2020-01-03
 client: Majoris
-services: 'Computational Vision, Data Science'
+services: 'Computational Vision, Data Science, Software development'
 tech: 'Python, openCV, AWS'
 featuredImg: '/ocr/pipeline.png'
 ---

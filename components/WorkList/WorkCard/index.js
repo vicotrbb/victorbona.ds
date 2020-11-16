@@ -35,9 +35,6 @@ const WorkCard = props => {
             ))}
           </div>
         </div>
-        <div className={styles.images}>
-          <img src={featuredImg} alt={title} />
-        </div>
       </a>
     </Link>
   )
