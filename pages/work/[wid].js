@@ -6,7 +6,6 @@ import { useInView } from 'react-intersection-observer'
 import ReactMarkdown from 'react-markdown'
 import removeMd from 'remove-markdown'
 
-import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Layout from '../../components/Layout'
 import Line from '../../components/Line'
