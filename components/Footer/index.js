@@ -6,6 +6,7 @@ import mediumLogo from "./medium.svg";
 import githubLogo from "./github.svg";
 import LeetCodeLogo from "./LeetCode.svg";
 import linkedinLogo from "./linkedin.svg";
+import sourcererLogo from "./sourcerer.svg";
 
 const Footer = ({ noBorder }) => (
   <footer>
@@ -40,6 +41,13 @@ const Footer = ({ noBorder }) => (
               href="https://www.linkedin.com/in/victorbona/"
             >
               <img src={linkedinLogo} alt="Victor on linkedin" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://sourcerer.io/vicotrbb"
+            >
+              <img src={sourcererLogo} alt="Victor on sourcerer" />
             </a>
           </li>
         </ul>

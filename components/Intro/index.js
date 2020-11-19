@@ -7,7 +7,7 @@ const Intro = () => (
         <p className={styles.greeting}>Hello, I'm Victor,</p>
         <p className={styles.myTitle}>
           a Software engineer <br />
-          and Data Scientist
+          and Data Scientist.
         </p>
         <a target="_blank" rel="noopener noreferrer" href="mailto:victor.bona@hotmail.com">
           <button className={styles.helloButton}>Mail me</button>

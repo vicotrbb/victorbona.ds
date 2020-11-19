@@ -34,7 +34,7 @@ const WorkCard = props => {
           <div className={styles.tech}>
             {tech.split(', ').map(t => (
               <div key={t} className={styles.techIcon}>
-                <Icon white>{t}</Icon>
+                <Icon>{t}</Icon>
               </div>
             ))}
           </div>

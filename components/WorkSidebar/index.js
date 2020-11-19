@@ -23,6 +23,7 @@ const Sidebar = ({ year, client, services, tech, website }) => (
     )}
     {tech && (
       <Section className={styles.techs}>
+        <p className={styles.title}>Techs</p>
         {tech.split(', ').map(t => (
           <Icon key={t}>{t}</Icon>
         ))}

@@ -79,7 +79,6 @@ const Post = () => {
       <SEO
         title={data.title}
         description={removeMd(content.trim()).substring(0, 160)}
-        image={data.featuredImg}
       />
       <Header />
       <article className={styles.work}>

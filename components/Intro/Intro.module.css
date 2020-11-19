@@ -129,3 +129,45 @@
   background: var(--linkColor);
   color: white;
 }
+
+.images {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .images {
+    position: absolute;
+    height: 700px;
+    top: 272px;
+    width: 143%;
+    left: -26px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .images {
+    position: absolute;
+    height: 420px;
+    top: 220px;
+    width: 143%;
+    left: 0;
+  }
+}
+
+.images img {
+  max-width: 100%;
+  border-radius: 3px;
+  box-shadow: 0px 3.32378px 20.6857px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 880px) {
+  .images img {
+    max-width: none;
+    height: 100%;
+  }
+}

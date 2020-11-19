@@ -4,7 +4,7 @@ const Icon = ({ children: icon, className, white }) => (
       <img
         className={className}
         title={icon}
-        src={require(`./${icon.toLowerCase() + (white ? 'White' : '')}.svg`)}
+        src={require(`./${icon.toLowerCase()}.svg`)}
         alt={icon}
       />
     ) : null}
