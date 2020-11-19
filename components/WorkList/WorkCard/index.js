@@ -5,8 +5,10 @@ import React from 'react'
 import Icon from '../../Icon'
 import styles from './WorkCard.module.css'
 
-const bgColors = ['#4146B5', '#4A2BAF', '#0F61C0', '#9E2B79']
-const gifs = ["https://giphy.com/embed/7NS9RAepPQ0HJ85qJz", "https://giphy.com/embed/PjJ1cLHqLEveXysGDB"]
+const bgColors = ['#000000', '#000000', '#000000', '#9E2B79']
+const gifs = ["https://media3.giphy.com/media/xT9IgqJX5EifBjTNM4/giphy.gif", 
+          "https://media4.giphy.com/media/7NS9RAepPQ0HJ85qJz/giphy.gif", 
+          "https://media4.giphy.com/media/PjJ1cLHqLEveXysGDB/giphy.gif"]
 
 const WorkCard = props => {
   const {
@@ -21,7 +23,7 @@ const WorkCard = props => {
     <Link href="/work/[wid]" as={`/work/${slug}`}>
       <a className={styles.card} style={{ background: bgColors[index % 4] }}>
         <div className={styles.images}>
-          <iframe src={ gifs[index % 4] } width="100%" height="100%" frameBorder="0"></iframe>
+          <img src={ gifs[index % 4] } width="100%" height="100%" frameBorder="0"></img>
         </div>
         <div className={styles.info}>
           <p className={styles.date}>{new Date(date).getFullYear()}</p>
