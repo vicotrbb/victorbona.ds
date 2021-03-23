@@ -19,8 +19,8 @@ const Intro = () => (
         aiming to work with <strong>ML engineering</strong> and contribute to the development and 
         growing of <strong>Artificial intelligence</strong> field, professional and academically.
         </p>
-        <p>📋 I'm actually working at WorkDB Data Business as a <strong>Full Stack Software Engineer</strong>.</p>
-        <p>💻 I’m graduating in <strong>Computer Sciences</strong>.</p>
+        <p>📋 I am actually working at Mout's as a <strong>Experienced Software Developer</strong>.</p>
+        <p>💻 I am graduating in <strong>Computer Sciences</strong>.</p>
         <p>🔬 My main study focus is <strong>Artificial Intelligence</strong>.</p>
       </div>
     </div>
